@@ -1,0 +1,26 @@
+
+
+#root {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    width: 100%;
+    padding: 80px 10px;
+    justify-content: center;
+}
+
+.rotate {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+img {
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
